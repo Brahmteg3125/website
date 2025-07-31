@@ -42,7 +42,7 @@ export const HeroSection = () => {
 								<span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
 							</div>
 							<p className="text-base sm:text-lg text-gray-400 max-w-2xl px-4 sm:px-0">
-								Crafting exceptional digital experiences with modern web technologies
+								Building the tools of tomorrow. Powered by software, guided by data, and engineered for intelligent autonomy
 							</p>
 						</div>
 
