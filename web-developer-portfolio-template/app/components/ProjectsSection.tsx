@@ -9,25 +9,47 @@ export const ProjectsSection = () => {
 				<div className="space-y-8 sm:space-y-12">
 					{[
 						{
-							title: 'E-commerce PWA',
-							description: 'High-performance Progressive Web App with offline capabilities',
+							title: 'Parkinson’s Disease Detection System',
+							description: 'AI-powered diagnostic tool for early-stage Parkinson’s detection with high accuracy and scalability',
 							metrics: {
-								performance: 98,
-								accessibility: 100,
-								seo: 100,
+								Accuracy: 98.6,
+								Detection_Time_Reduction: 89.2,
+								Scalability: 89.2,
 							},
-							techDetails: ['Service Worker implementation', 'IndexedDB for offline data', 'Streaming SSR', 'Dynamic code splitting'],
+							techDetails: ['Neural Network Architecture (Conv2D, MaxPooling, Dense Layers)', ' XGBoost for Gradient Boosting', ' SHAP for Explainable AI Visualisations', 'AWS S3 for Data Storage'],
 							image: '/code.jpg',
 						},
 						{
-							title: 'Real-time Collaboration Platform',
-							description: 'WebSocket-based platform with conflict resolution',
+							title: 'Smart PDF Assistant',
+							description: 'AI based knowledge extraction and conversational platform for PDFs',
 							metrics: {
-								performance: 95,
-								accessibility: 98,
-								seo: 100,
+								Accuracy: 94.1,
+								Precision: 91.4,
+								Scalability: 92,
 							},
-							techDetails: ['WebSocket optimization', 'CRDT implementation', 'Custom state management', 'WebRTC integration'],
+							techDetails: ['Sentence Transformers for 768D Vector Embeddings', 'PostgreSQL with pgvector for Vector Database', 'Grok LLM (LLaMA 3.3-70B) for NLP', 'CLI-Based Interface for User Interaction'],
+							image: '/code.jpg',
+						},
+			{
+							title: 'AI-Driven Crop Disease Detection',
+							description: 'High-precision system for detecting plant diseases to reduce crop loss',
+							metrics: {
+								Precision: 95.8,
+								Crop_Loss_Reduction: 91.2,
+								Scalability: 188,
+							},
+							techDetails: ['ResNet50-based CNN with Transfer Learning', 'Data Augmentation (Rotation, Flipping) and L2 Regularisation', 'Linear Programming for Hyperparameter Optimisation', ' AWS EC2 for Model Deployment'],
+							image: '/code.jpg',
+						},
+			{
+							title: 'AI-Driven Space Object Classification',
+							description: 'AI model for classifying celestial objects from telescope imagery',
+							metrics: {
+								Accuracy: 95.3,
+								Analysis_Efficiency_Improvement: 88,
+								Scalability: 90,
+							},
+							techDetails: ['TensorFlow for Deep Learning Model Development', 'Computer Vision with OpenCV for Image Processing', 'Astrophysics Data Analysis Pipelines', 'Scalable Model Deployment on Cloud Infrastructure'],
 							image: '/code.jpg',
 						},
 					].map((project) => (
