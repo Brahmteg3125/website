@@ -34,7 +34,7 @@ export const ContactSection = () => {
 						Get in Touch
 					</a>
 					<a
-						href="/resume.pdf"
+						href="/Brahmteg_amazon_new_resume.pdf"
 						target="_blank"
 						className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#21262D] border border-gray-800 rounded-lg font-medium hover:bg-gray-900 transition-colors"
 					>
@@ -53,7 +53,7 @@ export const ContactSection = () => {
 				{/* Social Links */}
 				<div className="flex justify-center gap-6">
 					<a
-						href="https://github.com"
+						href="https://github.com/Brahmteg3125"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-400 hover:text-white transition-colors p-2 hover:bg-gray-800 rounded-lg"
@@ -63,7 +63,7 @@ export const ContactSection = () => {
 						</svg>
 					</a>
 					<a
-						href="https://linkedin.com"
+						href="https://www.linkedin.com/in/brahmteg-singh-dua-630682246/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-400 hover:text-white transition-colors p-2 hover:bg-gray-800 rounded-lg"
@@ -73,7 +73,7 @@ export const ContactSection = () => {
 						</svg>
 					</a>
 					<a
-						href="https://twitter.com"
+						href="https://leetcode.com/u/Brahmteg/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-400 hover:text-white transition-colors p-2 hover:bg-gray-800 rounded-lg"
