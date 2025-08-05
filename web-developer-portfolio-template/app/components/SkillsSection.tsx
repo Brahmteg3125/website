@@ -8,12 +8,12 @@ export const SkillsSection = () => {
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8">
 					{[
 						{
-							category: 'Frontend Development',
+							category: 'AI & Machine Learning',
 							skills: [
-								{ name: 'React & Next.js', level: 95 },
-								{ name: 'TypeScript', level: 90 },
-								{ name: 'Modern CSS', level: 95 },
-								{ name: 'Web Animation', level: 85 },
+								{ name: 'Neural Networks (TensorFlow, PyTorch)', level: 95 },
+								{ name: 'Computer Vision (OpenCV, Transformers)', level: 90 },
+								{ name: 'Explainable AI (SHAP, Model Card Toolkit)', level: 95 },
+								{ name: 'Natural Language Processing (Grok LLM, Transformers)', level: 85 },
 							],
 							icon: '🎨',
 							color: 'from-blue-500 to-blue-700',
@@ -21,21 +21,21 @@ export const SkillsSection = () => {
 						{
 							category: 'Backend & APIs',
 							skills: [
-								{ name: 'Node.js', level: 90 },
-								{ name: 'RESTful APIs', level: 95 },
-								{ name: 'GraphQL', level: 85 },
-								{ name: 'Database Design', level: 88 },
+								{ name: 'Python (Flask/FastAPI)', level: 97 },
+								{ name: 'PostgreSQL & Vector Databases', level: 95 },
+								{ name: 'AWS Lambda & EC2', level: 85 },
+								{ name: 'Scalable System Design', level: 92 },
 							],
 							icon: '⚡',
 							color: 'from-green-500 to-green-700',
 						},
 						{
-							category: 'Performance & DevOps',
+							category: 'Performance Optimization',
 							skills: [
-								{ name: 'Web Performance', level: 92 },
-								{ name: 'CI/CD', level: 88 },
-								{ name: 'Docker', level: 85 },
-								{ name: 'AWS', level: 82 },
+								{ name: 'Model Performance Tuning', level: 92 },
+								{ name: 'Data Processing', level: 88 },
+								{ name: 'AWS', level: 85 },
+								{ name: 'Data Augmentation & Regularization', level: 82 },
 							],
 							icon: '🚀',
 							color: 'from-purple-500 to-purple-700',
