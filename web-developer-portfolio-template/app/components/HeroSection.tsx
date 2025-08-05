@@ -31,7 +31,6 @@ export const HeroSection = () => {
 					</div>
 
 
-
 					{/* Role & Description */}
 					<div className="space-y-4 sm:space-y-6 mt-6 sm:mt-8">
 						<div className="flex flex-col items-center gap-4">
