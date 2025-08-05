@@ -29,7 +29,7 @@ export const HeroSection = () => {
 					<div className="relative inline-block px-4 sm:px-0 py-6 sm:py-10">
 						<div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-2xl blur-xl opacity-75"></div>
 						<h1 className="relative text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 pb-2">
-							Brahmteg Singh
+							Brahmteg Dua
 						</h1>
 					</div>
 
