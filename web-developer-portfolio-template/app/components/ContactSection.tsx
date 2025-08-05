@@ -34,7 +34,7 @@ export const ContactSection = () => {
 						Get in Touch
 					</a>
 					<a
-						href="/Brahmteg_amazon_new_resume.pdf"
+						href="web-developer-portfolio-template/app/components/Brahmteg_amazon_new_resume.pdf"
 						target="_blank"
 						className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#21262D] border border-gray-800 rounded-lg font-medium hover:bg-gray-900 transition-colors"
 					>
