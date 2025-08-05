@@ -5,7 +5,7 @@ export const ContactSection = () => {
 		<section id="contact" className="py-12 sm:py-20 px-4 bg-[#161B22] scroll-mt-20">
 			<div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
 				<h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Let&apos;s Build Something Amazing</h2>
-				<p className="text-sm sm:text-base text-gray-400 mb-6">Looking for a developer who can create high-performance, interactive web experiences?</p>
+				<p className="text-sm sm:text-base text-gray-400 mb-6">The goal? Impossible. Maybe — but that’s where I start.</p>
 
 				{/* Location */}
 				<div className="flex items-center justify-center gap-2 text-gray-400 mb-8">
@@ -18,13 +18,13 @@ export const ContactSection = () => {
 						/>
 						<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
 					</svg>
-					<span>San Francisco, CA</span>
+					<span>Bengaluru, India</span>
 				</div>
 
 				{/* Contact Buttons */}
 				<div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
 					<a
-						href="mailto:contact@example.com"
+						href="mailto:Brahmtegwork@gmail.com"
 						className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg font-medium hover:opacity-90 transition-opacity"
 					>
 						<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
