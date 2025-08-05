@@ -29,7 +29,7 @@ export const HeroSection = () => {
 					<div className="relative inline-block px-4 sm:px-0">
 						<div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-2xl blur-xl opacity-75"></div>
 						<h1 className="relative text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300 pb-2">
-							John Doe
+							Brahmteg Singh Dua
 						</h1>
 					</div>
 
@@ -38,7 +38,7 @@ export const HeroSection = () => {
 						<div className="flex flex-col items-center gap-4">
 							<div className="flex items-center gap-3">
 								<span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
-								<h2 className="text-xl sm:text-2xl font-light tracking-wide text-blue-400">Web Developer</h2>
+								<h2 className="text-xl sm:text-2xl font-light tracking-wide text-blue-400">Software Developer</h2>
 								<span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
 							</div>
 							<p className="text-base sm:text-lg text-gray-400 max-w-2xl px-4 sm:px-0">
@@ -48,7 +48,7 @@ export const HeroSection = () => {
 
 						{/* Tech Stack Pills */}
 						<div className="flex flex-wrap justify-center gap-2 sm:gap-3 mt-6 sm:mt-8 px-4 sm:px-0">
-							{['React', 'TypeScript', 'Node.js', 'Next.js', 'GraphQL'].map((tech) => (
+							{[ 'DSA', 'Scalable System Design', 'Computer Networking', 'DBMS', 'OOPS', 'Transformers'].map((tech) => (
 								<span
 									key={tech}
 									className="px-3 sm:px-4 py-1 sm:py-1.5 bg-[#1A1F2B] rounded-full text-sm font-medium text-gray-300 border border-[#2D333B] hover:border-blue-500/50 transition-colors"
