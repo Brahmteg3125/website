@@ -13,7 +13,7 @@ export const SkillsSection = () => {
 								{ name: 'Neural Networks (TensorFlow, PyTorch)', level: 95 },
 								{ name: 'Computer Vision (OpenCV, Transformers)', level: 90 },
 								{ name: 'Explainable AI (SHAP, Model Card Toolkit)', level: 95 },
-								{ name: 'Natural Language Processing (Grok LLM, Transformers)', level: 85 },
+								{ name: 'NLP (Grok LLM, Transformers)', level: 85 },
 							],
 							icon: '🎨',
 							color: 'from-blue-500 to-blue-700',
